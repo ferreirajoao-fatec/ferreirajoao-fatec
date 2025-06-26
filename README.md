@@ -3,7 +3,7 @@
 ## Olá eu sou o João Gabriel Ferreira
 
 - 🎓 Estudante de Desenvolvimento de Software Multiplataforma - FATEC Matão
-- 🌱 Atualmente aprendendo: PHP, .NET e JavaScript
+- 🌱 Atualmente aprendendo: HTML, CSS e JavaScript
 - 🔭 Desenvolvendo projetos com foco em acessibilidade e tecnologia social
 - 😄 Pronomes: Ele/Dele
 
