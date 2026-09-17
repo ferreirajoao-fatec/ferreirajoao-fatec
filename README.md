@@ -6,9 +6,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Estudante+de+DSM+na+Fatec+Mat%C3%A3o;Backend+com+Node.js+e+Express;Clean+Architecture%2C+SOLID+e+TDD;Corre%C3%A7%C3%A3o+antes+de+atalho." alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=ferreirajoao-fatec&label=Visitas+no+perfil&color=58A6FF&style=for-the-badge" alt="Contador de visitas" />
+<img src="https://img.shields.io/github/followers/ferreirajoao-fatec?style=for-the-badge&logo=github&label=Seguidores&color=58A6FF&labelColor=0D1117" />
+<img src="https://komarev.com/ghpvc/?username=ferreirajoao-fatec&label=Visitas+no+perfil&color=58A6FF&style=for-the-badge" />
 
 </div>
 
@@ -69,39 +70,21 @@ const joao = {
 
 ## Projetos em destaque
 
-<div align="center">
+### [REPO-1](https://github.com/ferreirajoao-fatec/sinapse)
 
-<a href="https://github.com/ferreirajoao-fatec/sinapse.git">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ferreirajoao-fatec&repo=REPO-1&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" />
-</a>
-<a href="https://github.com/ferreirajoao-fatec/devshelf">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ferreirajoao-fatec&repo=REPO-2&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" />
-</a>
+Descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
 
-</div>
+![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF)
+![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
+![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
 
-**REPO-1** — descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
+### [REPO-2](https://github.com/ferreirajoao-fatec/devshelf)
 
-**REPO-2** — descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
+Descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
 
-<br/>
-
-## Estatísticas
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ferreirajoao-fatec&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ferreirajoao-fatec&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&langs_count=8" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=ferreirajoao-fatec&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ferreirajoao-fatec&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
-
-</div>
+![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF)
+![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
+![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
 
 <br/>
 
@@ -109,7 +92,11 @@ const joao = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ferreirajoao-fatec/ferreirajoao-fatec/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ferreirajoao-fatec/ferreirajoao-fatec/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ferreirajoao-fatec/ferreirajoao-fatec/output/snake.svg" />
+  <img alt="Animacao da cobrinha comendo as contribuicoes" src="https://raw.githubusercontent.com/ferreirajoao-fatec/ferreirajoao-fatec/output/snake.svg" />
+</picture>
 
 </div>
 
