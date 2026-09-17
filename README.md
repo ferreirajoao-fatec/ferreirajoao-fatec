@@ -22,7 +22,7 @@ const joao = {
   nome: "João Gabriel",
   formacao: "Desenvolvimento de Software Multiplataforma — Fatec Matão",
   atuacao: "Desenvolvimento backend",
-  stackPrincipal: ["Node.js", "Express"],
+  stackPrincipal: ["Node.js", "NestJS", "TypeScript"],
   estudandoAgora: ["Arquitetura limpa", "Testes automatizados"],
   filosofia: "Código que passa no teste é o mínimo. Código que sobrevive à manutenção é o objetivo."
 };
@@ -41,26 +41,32 @@ const joao = {
 
 ### Back-end
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 ### Front-end
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ### Banco de dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Testes e qualidade
+### Testes e infraestrutura
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![CodeQL](https://img.shields.io/badge/CodeQL-2088FF?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ### Ferramentas
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
@@ -70,21 +76,25 @@ const joao = {
 
 ## Projetos em destaque
 
-### [REPO-1](https://github.com/ferreirajoao-fatec/sinapse)
+### [Sinapse](https://github.com/ferreirajoao-fatec/sinapse)
 
-Descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
+Plataforma de estudos em português: organização de anotações em hierarquia (grupos, seções, páginas e subpáginas), editor de texto rico com autosave, command palette e atalhos de teclado.
 
-![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF)
-![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
-![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/REPO-1?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
+Monorepo **pnpm + Turborepo** com **Next.js 15** no front e **NestJS 11 + Prisma + PostgreSQL + Redis** no back. Autenticação JWT com cookies httpOnly e rotação de refresh token, OAuth do Google e exportação/exclusão de dados em conformidade com a LGPD. O isolamento de dados entre contas é garantido em nível de ORM por uma extensão do Prisma que injeta o filtro por usuário e bloqueia operações inseguras, coberto por testes e2e.
 
-### [REPO-2](https://github.com/ferreirajoao-fatec/devshelf)
+![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/sinapse?style=flat-square&labelColor=0D1117&color=58A6FF)
+![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/sinapse?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
+![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/sinapse?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
 
-Descrição do projeto: o que ele faz, a stack usada e qual foi a sua participação.
+### [DevShelf](https://github.com/ferreirajoao-fatec/devshelf)
 
-![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF)
-![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
-![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/REPO-2?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
+Fichário digital de projetos para desenvolvedores. O usuário entra com a conta do GitHub, importa ou cadastra seus repositórios, organiza tudo por status e tecnologia, e publica um catálogo visual com página própria para cada projeto e um perfil público compartilhável.
+
+Construído em **Next.js + TypeScript** com API Routes e Server Actions no back, **PostgreSQL + Prisma**, validação com **Zod** e autenticação exclusiva por **GitHub OAuth** via Auth.js. A importação de repositórios consome a **GitHub REST API**. Interface com Tailwind e shadcn/ui.
+
+![Linguagem](https://img.shields.io/github/languages/top/ferreirajoao-fatec/devshelf?style=flat-square&labelColor=0D1117&color=58A6FF)
+![Último commit](https://img.shields.io/github/last-commit/ferreirajoao-fatec/devshelf?style=flat-square&labelColor=0D1117&color=58A6FF&label=%C3%BAltimo%20commit)
+![Tamanho](https://img.shields.io/github/repo-size/ferreirajoao-fatec/devshelf?style=flat-square&labelColor=0D1117&color=58A6FF&label=tamanho)
 
 <br/>
 
