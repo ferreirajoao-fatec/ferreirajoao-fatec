@@ -1,4 +1,3 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=544393&height=120&section=footer"/>
 
 ## Olá eu sou o João Gabriel Ferreira
 
